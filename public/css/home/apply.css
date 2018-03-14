@@ -1,0 +1,584 @@
+@charset "UTF-8";
+body{
+    min-width: 1000px;
+}
+html, body ,.page-contents {
+    height:100%;
+    background-color: #e9ecf3;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.page-contents{
+    height:auto;
+    min-height:100%;
+}
+/*顶部区域CSS开始*/
+.head{
+    display:flex;
+    display: -webkit-flex; /* Safari */
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    border-bottom: 4px solid #ed7e00;
+}
+.head-logo{
+    width: 200px;
+    height: 80px;
+    /*background-color: #ed7e00;*/
+    margin-left: 20px;
+    background:url(../../images/logo.png) no-repeat;
+    background-size:100% 100%;
+}
+.head-logo a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.head-r-links ul{
+    /*display: inline-block;*/
+    float: left;
+}
+.head-r-links li{
+    float: left;
+    font-size: 14px;
+    font-weight:700;
+    /*padding: 0 8px;*/
+}
+
+.ul-head-process li{
+    list-style: decimal;
+    color: #ed7e00;
+    margin-left: 40px;
+}
+
+.head-r-links a{
+    color: #ed7e00;
+}
+.user-info{
+    /*margin-right:20px;*/
+    margin-left: 50px;
+}
+.user-info li{
+    margin-right: 20px;
+}
+/*顶部区域CSS结束*/
+
+
+/*页面中部区域CSS开始*/
+
+/*展示区域CSS开始*/
+.div-page-main{
+    padding-bottom:80px;
+}
+.top-contents{
+    box-sizing: border-box;
+    margin: 8px 4px;
+    height: 230px;
+    border: 1px dashed #ed7e00;
+}
+/*展示区域CSS结束*/
+
+.div-main{
+    padding: 20px;
+}
+
+.div-l{
+    clear: both;
+    float: left;
+    display: inline-block;
+    width: 240px;
+    background-color: #fff;
+    margin-right: 20px;
+}
+/*.div-l ul{*/
+    /*clear: both;*/
+    /*display: inline-block;*/
+    /*width: 200px;*/
+    /*height: 200px;*/
+/*}*/
+.div-l li{
+    box-sizing: border-box;
+    height: 36px;
+    padding: 2px 10px;
+    margin-top: 8px;
+}
+
+.div-l a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    line-height: 36px;
+    color: #000;
+}
+
+.div-l li:hover{
+    background-color: #f5f8fd;
+}
+.div-l li:hover a{
+    margin-left: 6px;
+    color: #ed7e00;
+}
+
+.div-contents{
+    /*display: inline-block;*/
+    overflow: auto;
+    /*width: 600px;*/
+    /*left: 300px;*/
+    /*height: 600px;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+}
+/*页面中部区域CSS结束*/
+
+/*.div-1{*/
+    /*float: left;*/
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*display: inline-block;*/
+    /*background-color: #78341a;*/
+/*}*/
+
+/*.div-2{*/
+    /*overflow: auto;*/
+    /*!*width: 300px;*!*/
+    /*height: 300px;*/
+    /*display: inline-block;*/
+    /*background-color: #ef7c61;*/
+/*!*}*!*/
+
+.top-left,.top-right{
+    display:flex;
+    display: -webkit-flex; /* Safari */
+    justify-content:center;
+    align-items:center;
+    /*align-content: flex-start*/
+}
+
+.top-left{
+    float: left;
+    width: 50%;
+    height: 100%;
+    /*background-color: green;*/
+}
+.top-right{
+    float: left;
+    width: 50%;
+    height: 100%;
+    /*background-color: red;*/
+}
+.top-img,.top-detail{
+    margin: 10px 20px;
+    width: 50%;
+}
+
+.top-img img{
+    max-width: 60%;
+    max-height: 80%;
+    float: right;
+}
+.top-img-right{
+    float: left;
+}
+
+.top-detail-title{
+    font-size: 18px;
+    margin: 10px 0;
+    color: #ed7e00;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.top-detail-detail{
+    font-size: 14px;
+    margin: 10px 0;
+    color: #333;
+}
+.top-detail-more a{
+    padding: 4px 10px;
+    background-color: #e1e5ec;
+    color: #666;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.top-detail-more a:hover{
+    background-color: #acb7ca;
+}
+/*.ad-left .ad-img{*/
+    /*float: left;*/
+    /*width: 50%;*/
+    /*height: 100%;*/
+    /*background-color: #555;*/
+
+/*}*/
+/*.ad-left .ad-detail{*/
+    /*float: left;*/
+    /*width: 50%;*/
+    /*height: 100%;*/
+    /*background-color: #fff;*/
+/*}*/
+/*.ad-left .ad-detail .title{*/
+    /*margin-top: 20px;*/
+    /*text-align: center;*/
+    /*font-size: 20px;*/
+/*}*/
+/*.ad-left .ad-detail .detail{*/
+    /*margin-top: 20px;*/
+    /*text-align: center;*/
+    /*font-size: 20px;*/
+/*}*/
+/*.ad-left .ad-detail .btn{*/
+    /*margin-top: 20px;*/
+    /*text-align: center;*/
+/*}*/
+/*.ad-left .ad-detail .btn .name{*/
+    /*background-color: #e7505a; !* Green *!*/
+    /*border: none;*/
+    /*color: white;*/
+    /*padding: 10px 22px;*/
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+    /*display: inline-block;*/
+    /*font-size: 16px;*/
+
+/*}*/
+
+
+/*.ad-right .ad-img{*/
+    /*float: left;*/
+    /*width: 50%;*/
+    /*height: 100%;*/
+    /*background-color: #555;*/
+
+/*}*/
+/*.ad-right .ad-detail{*/
+    /*float: left;*/
+    /*width: 50%;*/
+    /*height: 100%;*/
+    /*background-color: #fff;*/
+/*}*/
+/*.ad-right .ad-detail .title{*/
+    /*margin-top: 20px;*/
+    /*text-align: center;*/
+    /*font-size: 20px;*/
+/*}*/
+/*.ad-right .ad-detail .detail{*/
+    /*margin-top: 20px;*/
+    /*text-align: center;*/
+    /*font-size: 20px;*/
+/*}*/
+/*.ad-right .ad-detail .btn{*/
+    /*margin-top: 20px;*/
+    /*text-align: center;*/
+/*}*/
+/*.ad-right .ad-detail .btn .name{*/
+    /*background-color: #e7505a; !* Green *!*/
+    /*border: none;*/
+    /*color: white;*/
+    /*padding: 10px 22px;*/
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+    /*display: inline-block;*/
+    /*font-size: 16px;*/
+
+/*}*/
+
+/*.ui.form .field>label {*/
+    /*font-weight: normal;*/
+/*}*/
+/*.ui.form .field>label {*/
+    /*display: block;*/
+    /*margin: 0em 0em 0.2857rem 0em;*/
+    /*color: rgba(0,0,0,0.8);*/
+    /*font-size: 0.9285em;*/
+    /*font-weight: bold;*/
+    /*text-transform: none;*/
+/*}*/
+/*.ui.form .field>label {*/
+    /*display: block;*/
+    /*margin: 0em 0em 0.2857rem 0em;*/
+    /*color: rgba(0,0,0,0.8);*/
+    /*font-size: 0.9285em;*/
+    /*font-weight: bold;*/
+    /*text-transform: none;*/
+/*}*/
+/*.ui.form .field>label {*/
+    /*font-weight: normal;*/
+/*}*/
+/*.fenjie{*/
+    /*font-size: 20px;*/
+    /*width: 100%;*/
+    /*border-bottom: 5px solid #ed7e00;*/
+    /*padding-bottom: 3px;*/
+    /*margin-bottom: 10px;*/
+/*}*/
+
+/*.ui.checkbox {*/
+    /*position: relative;*/
+    /*display: inline-block;*/
+    /*min-height: 17px;*/
+    /*font-size: 1rem;*/
+    /*line-height: 15px;*/
+    /*min-width: 17px;*/
+    /*-webkit-backface-visibility: hidden;*/
+    /*backface-visibility: hidden;*/
+    /*outline: none;*/
+    /*vertical-align: middle;*/
+/*}*/
+/*.ui.checkbox input {*/
+    /*position: absolute;*/
+    /*top: 0px;*/
+    /*left: 0px;*/
+    /*opacity: 0 !important;*/
+    /*outline: none;*/
+    /*z-index: -1;*/
+/*}*/
+
+
+/*右侧表单填写区域开始*/
+.div-note-info{
+    width: auto;
+    background-color: #f5f8fd;
+    padding: 16px;
+    margin: 10px 0;
+    border-left: 5px solid #ed7e00;
+}
+.note-title{
+    font-size: 18px;
+    font-weight: 300;
+    /*padding: 0 10px;*/
+    margin-bottom: 10px;
+}
+.div-note-info p{
+    font-size: 14px;
+}
+.div-note-info ul{
+    padding-left: 16px;
+}
+.div-note-info li{
+    font-size: 14px;
+    list-style: disc;
+}
+
+.div-form{
+    padding: 16px;
+}
+
+.form-group{
+    margin-bottom: 14px;
+}
+
+.form-group input{
+    padding: 0 10px;
+}
+
+.form-group select{
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.div-item{
+    /*display: inline-block;*/
+    /*height: 34px;*/
+    /*width: 100%;*/
+    overflow: auto;
+}
+.label-item{
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    float: left;
+    margin-right: 10px;
+}
+.label-item,.input-item{
+    font-size: 14px;
+    line-height: 34px;
+    height: 34px;
+    box-sizing: border-box;
+}
+.input-item{
+    width: 100%;
+    /*height: 32px;*/
+}
+.form-btn{
+    text-align: right;
+}
+.form-btn button:hover{
+    background-color: #ed7e00;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-active{
+    background-color: #ed7e00!important;
+    color: #fff!important;
+}
+.form-btn button{
+    height: 40px;
+    color:#ed7e00;
+    background-color: #fff;
+}
+.btn-pre,.btn-next{
+    width: 30%;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #ed7e00;
+}
+.radio-item{
+    line-height: 34px;
+    margin-right: 4px;
+}
+.span-item{
+    font-size: 14px;
+    line-height: 34px;
+    margin-right: 10px;
+}
+.select-item{
+    font-size: 14px;
+    height: 34px;
+    background-color: #f5f8fd;
+}
+.date-item{
+    box-sizing: border-box;
+    height: 34px;
+    font-size: 14px;
+    padding-right: 0!important;
+}
+.table-form{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+
+    border: 1px solid #ddd;
+}
+
+/*.table-form th,td{*/
+    /*border: 1px solid #ddd;*/
+    /*background-color: #fff;*/
+/*}*/
+
+.tr-category th{
+    font-size: 18px;
+    line-height: 50px;
+    font-weight:600;
+    background-color: #E9ECF3;
+}
+.tr-category select{
+    margin-left: 14px;
+}
+
+.tr-title th{
+    font-size: 16px;
+    line-height: 40px;
+    font-weight:500;
+    background-color: #f5f8fd;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.table-form td{
+    font-size: 14px;
+    color: #333;
+    line-height: 36px;
+    padding: 0 10px;
+    /*border: none;*/
+}
+
+.table-form input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 1px solid #ed7e00;
+    font-size: 14px;
+    padding: 0 4px;
+    /*line-height: 36px;*/
+}
+
+.tr-add-record{
+    text-align: center;
+    background-color: #f5f8fd;
+    cursor: pointer;
+}
+.tr-add-record:hover span{
+    color: #ed7e00;
+}
+
+.td-item-w33-3{
+    width: 33.33333%;
+}
+
+.td-item-w25{
+    width: 25%;
+}
+
+.td-item-w20{
+    width: 20%;
+}
+
+.td-item-w20{
+    width: 20%;
+}
+
+.td-option a,.td-new-option a{
+    padding-right: 10px!important;
+}
+.td-new-option a{
+    color: #ed7e00!important;
+}
+.td-new-option a:last-child{
+    padding-right: 0;
+}
+.td-new-option i{
+
+}
+
+.td-label-r{
+    text-align: right;
+}
+.tr-l{
+    text-align: left;
+}
+
+.tr-l th{
+    padding-left: 10px;
+}
+
+.bg-lightGreen{
+    background-color: #3faba4 !important;
+}
+.border-lightGreen{
+    border: 1px solid #3faba4 !important;
+}
+.font-white{
+    color: #fff!important;
+}
+.td-a-bg-lightGray a{
+    background-color: #e1e5ec;
+    display: inline-block;
+    font-size: 12px;
+    margin:6px 10px;
+    padding:0 10px;
+    line-height: 36px;
+    color: #555;
+}
+
+.bg-lightBlue{
+    background-color: #3598dc!important;
+}
+.border-lightBlue{
+    border: 1px solid #3598dc !important;
+}
+.input-normal{
+    border: none!important;
+    width: auto!important;
+}
+
+/*右侧表单填写区域结束*/

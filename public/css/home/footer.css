@@ -1,0 +1,49 @@
+/*页脚区域样式开始*/
+.footer{
+    /*width: 1200px;*/
+    position:relative;
+    box-sizing: border-box;
+    margin-top: -80px;
+    height:80px;
+    /*line-height: 60px;*/
+    background:#e9ecf3;
+    color:#a2abb7;
+    font-size:14px;
+    text-align:center;
+}
+.friendly-links strong,.friendly-links a{
+    font-size: 14px;
+}
+.friendly-links a,.footer-copyright p,.footer-copyright a{
+    color: #999;
+    line-height: 22px;
+}
+.footer-copyright{
+    text-align: center;
+    padding-top: 10px;
+}
+.mod-copyright-split{
+    margin: 0 10px;
+    color: #ccc;
+}
+
+.apply-footer{
+    position:relative;
+    height:40px;
+    line-height: 40px;
+    margin-top:-40px;
+    background:#444;
+    color:#a2abb7;
+    font-size:14px;
+    text-align:center;
+}
+
+.apply-footer a{
+    color: #a2abb7;
+}
+
+.apply-footer a:hover{
+    color: #ed7e00;
+}
+
+/*页脚区域样式结束*/
